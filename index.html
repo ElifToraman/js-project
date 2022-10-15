@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>My web page</title>
+</head>
+<body>
+    <script>
+        let a = 9;
+        let b = Math.sqrt(Math.pow(a,2)+Math.pow(a,2));
+        console.log(b);
+
+        let s = (5+6+7)/2;
+        let areaOfTriangle = Math.sqrt(s*(s-5)*(s-6)*(s-7));
+        console.log(areaOfTriangle);
+
+        const PI = 3.14159265359;
+        let circum= 2*PI*4;
+        let surfaceArea=PI*Math.pow(4,2);
+        console.log(circum, surfaceArea);
+
+        function maxDetector (a,b) {
+            if ( a > b) {
+                return a;
+            } else {
+                return b;
+            }
+        }
+        console.log(maxDetector(15,35));
+
+        function evenOrOdd (a) {
+            if ( a % 2 == 1) {
+                return "odd";
+            } else {
+                return "even";
+            }
+        }
+        console.log(evenOrOdd(11));
+    </script>
+
+</body>
+</html>
